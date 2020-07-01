@@ -9,16 +9,16 @@ Clone git repository
 
 Menggunakan Git SSH
 ```
-git clone git@github.com:FlorientR/laravel-gentelella.git
+git clone git@github.com:esartono/RegistrationSystem.git
 ```
 
 atau dengan HTTPS
 ```
-git clone https://github.com/FlorientR/laravel-gentelella.git
+git clone https://github.com/esartono/RegistrationSystem.git
 ```
 
 ```
-cd laravel-gentelella
+cd RegistrationSystem
 ```
 
 Update composer 
@@ -26,25 +26,23 @@ Update composer
 composer update
 ```
 
-## Step 2
-Copy ```.env.example``` file to ```.env```
+Copy ```.env.example``` menjadi ```.env```
 
-For Unix
+Untuk Unix
 ```
 cp .env.example .env
 ```
-For Windows
+Untuk Windows
 ```
 copy .env.example .env
 ```
 
-And then, run this commands
-
+Kemudian jalankan perintah
 ```
 php artisan key:generate
 ```
 
-Configure your ```.env``` file and run :
+Edit file ```.env``` sesuai dengan settingan database dan kemudian jalankan perintah
 ```
 php artisan migrate --seed
 ```
