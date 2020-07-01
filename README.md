@@ -7,17 +7,16 @@ Aplikasi untuk pendaftaran dengan verifikasi dokumen
 ### With GIT
 Clone git repository
 
-With Git SSH
+Menggunakan Git SSH
 ```
 git clone git@github.com:FlorientR/laravel-gentelella.git
 ```
 
-Or with HTTPS
+atau dengan HTTPS
 ```
 git clone https://github.com/FlorientR/laravel-gentelella.git
 ```
 
-Go to the project folder 
 ```
 cd laravel-gentelella
 ```
